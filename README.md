@@ -18,7 +18,7 @@
 * Install node 9.11.1: `nvm install 9.11.1`
 * `cd clc` to enter to repo and `code .` to open the repo
 * Inside of `clc`, install dependencies with `yarn`
-*`cd clc-server` to enter the repo and `code .` to open the repo
+* `cd clc-server` to enter the repo and `code .` to open the repo
 * Inside of `clc-server`, install the dependencies with `yarn`
 * [Install MongoDb Compass](https://www.mongodb.com/download-center?jmp=tutorials&_ga=2.177525221.1936207160.1531960242-451401237.1531960242#compass)
 * After downloading Compass, click “Connect.” You should now be able to view your database
