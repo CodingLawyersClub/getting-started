@@ -1,5 +1,5 @@
 # Coding Lawyers Club – Getting Started
-* [Download GitUp[ (http://gitup.co/)
+* [Download GitUp] (http://gitup.co/)
 * [Download iTerm](https://www.iterm2.com/)
 * Go to iTerm —> Profiles —> Default —> Edit Profile —> Working Directory (“Reuse previous session’s directory”)
 * Install Oh My Zsh with: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
