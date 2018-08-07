@@ -1,9 +1,11 @@
 # Coding Lawyers Club – Getting Started
-
+* [Download GitUp[ (http://gitup.co/)
 * [Download iTerm](https://www.iterm2.com/)
 * Go to iTerm —> Profiles —> Default —> Edit Profile —> Working Directory (“Reuse previous session’s directory”)
 * Install Oh My Zsh with: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 (you may be asked to install git tools, say yes)
+* Run `git config --global user.name "Your Full Name"`
+* Run `git config --global user.email "Your Email"`
 * Install Homebrew with: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 * [Download VS Code](https://code.visualstudio.com/)
 * [Install command line shell by following these instructions](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
