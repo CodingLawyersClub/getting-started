@@ -21,13 +21,13 @@ While still in iTerm, install Homebrew with:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-[Download VS Code](https://code.visualstudio.com/). Drag it into your Applications folder
+[Download VS Code](https://code.visualstudio.com/). Drag it into your Applications folder and then onto your Dock
 
 [Install command line shell by following these instructions](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
 
 Sign up for [Github](www.github.com). Send me an email with your name and Github username
 
-[Download Github Desktop](https://desktop.github.com/). Drag it into your Applications folder. Sign in with your Github username
+[Download Github Desktop](https://desktop.github.com/). Drag it into your Applications folder and then onto your Dock. Sign in with your Github username
 
 [Fork the frontend-template repo](https://github.com/dbarabander/template-frontend) by clicking "Fork" in the top right and follow the instructions. Forking means you're making a copy of this code base. 
 
