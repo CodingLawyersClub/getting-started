@@ -12,9 +12,11 @@ While still in iTerm, install Oh My Zsh by copying the following command:
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
 (you may be asked to install git tools, say yes)
 
-While still in iTerm, install Homebrew with: 
+While still in iTerm, install Homebrew with:
+
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
@@ -80,13 +82,14 @@ cd template-frontend
 
 Followed by:
 
-``
+```
 code .
 ```
 
 You should see VS Code open your `template-frontend` repository
 
-Inside of `template-frontend`, install dependencies by running: 
+Inside of `template-frontend`, install dependencies by running:
+
 ```
 yarn
 ```
@@ -114,6 +117,7 @@ code .
 ``` 
 
 Inside of `template-backend`, in iTerm, lets install the dependencies:
+
 ```
 yarn
 ```
