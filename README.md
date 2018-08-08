@@ -21,6 +21,12 @@ While still in iTerm, install Homebrew with:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+While still in iTerm, move into the `Desktop` direcotry with:
+
+```
+cd Desktop
+```
+
 [Download VS Code](https://code.visualstudio.com/). Drag it into your Applications folder and then onto your Dock
 
 [Install command line shell by following these instructions](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
