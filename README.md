@@ -113,7 +113,7 @@ To move out one directory. You should be back in `Desktop`
 Now in our new window, let's go into `template-backend`. Hopefully you're seeing the pattern now of what `cd` does. `cd` moves one layer into a directory. `cd ..` moves one layer out of a directory.
 
 ```
-cd template-backend` 
+cd template-backend
 ```
 
 Again, inside of `tempalte-backend` in iTerm, lets open the repo with: 
