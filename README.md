@@ -116,7 +116,7 @@ Now in our new window, let's go into `template-backend`. Hopefully you're seeing
 cd template-backend
 ```
 
-Again, inside of `tempalte-backend` in iTerm, lets open the repo with: 
+Again, inside of `template-backend` in iTerm, lets open the repo with: 
 
 ```
 code .
