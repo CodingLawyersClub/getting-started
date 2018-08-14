@@ -99,7 +99,7 @@ Copy the link again by clicking the green button that says "Clone or Download"
 In iTerm, clone this repository the same way you cloned the frontend one. It should look look like the following, with your username instead of YOUR_USERNAME:
 
 ```
-$ git clone git clone git@github.com:YOUR_USERNAME/template-backend.git
+$ git clone git@github.com:YOUR_USERNAME/template-backend.git
 ```
 
 While in iTerm, install `yarn` by running:
@@ -126,7 +126,7 @@ While in iTerm, install node 9.11.1 by running:
 $ nvm install 9.11.1
 ```
 
-Make sure you're in the `template-frontend` directory. In iTerm your current directory should still be `Desktop`. 
+Move into the `template-frontend` directory. In iTerm your current directory should still be `Desktop`. 
 
 In iTerm, run the following:
 
@@ -177,5 +177,3 @@ $ yarn
 ```
 
 [Install MongoDb Compass](https://www.mongodb.com/download-center?jmp=tutorials&_ga=2.177525221.1936207160.1531960242-451401237.1531960242#compass). You'll need to sign up. You can give any email you want.
-
-After downloading Compass, click “Connect.” You should now be able to view your database
