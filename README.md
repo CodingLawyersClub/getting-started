@@ -40,38 +40,38 @@ Sign up for [Github](www.github.com). Send me an email with your name and Github
 In iTerm run (make sure to put the email you signed up with Github!):
 
 ```
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location:
 
 ```
-Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
+$ Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 ```
 
 At the prompt about passphrase, just press enter twice:
 
 ```
-Enter passphrase (empty for no passphrase): [Press enter]
-Enter same passphrase again: [Press enter]
+$ Enter passphrase (empty for no passphrase): [Press enter]
+$ Enter same passphrase again: [Press enter]
 ```
 
 Run:
 
 ```
-eval "$(ssh-agent -s)"
+$ eval "$(ssh-agent -s)"
 ```
 
 Followed by:
 
 ```
-ssh-add -K ~/.ssh/id_rsa
+$ ssh-add -K ~/.ssh/id_rsa
 ```
 
 And finally copy this key to your clipboard with:
 
 ```
-pbcopy < ~/.ssh/id_rsa.pub
+$ pbcopy < ~/.ssh/id_rsa.pub
 ```
 
 On Github, go to [keys](https://github.com/settings/keys)
