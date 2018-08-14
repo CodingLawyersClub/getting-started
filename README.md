@@ -37,6 +37,53 @@ Sign up for [Github](www.github.com). Send me an email with your name and Github
 
 [Download Github Desktop](https://desktop.github.com/). Drag it into your Applications folder and then onto your Dock. Sign in with your Github username
 
+In iTerm run (make sure to put the email you signed up with Github!):
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location:
+
+```
+Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
+```
+
+At the prompt about passphrase, just press enter twice:
+
+```
+Enter passphrase (empty for no passphrase): [hit Enter]
+Enter same passphrase again: [hit Enter]
+```
+
+Run:
+
+```
+eval "$(ssh-agent -s)"
+```
+
+Followed by:
+
+```
+ssh-add -K ~/.ssh/id_rsa
+```
+
+And finally copy this key to your clipboard with:
+
+```
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
+On Github, go to [keys](https://github.com/settings/keys)
+
+Click "New SSH key"
+
+For "Title" put "YOUR_NAME_HERE's Computer" (obviously replace with your name)
+
+Under "Key" simply ⌘ + V to paste. Click "Add SSH key". 
+
+Note: If you received an error, you most likely copied something to your clipboard in between instructions. Go back to iTerm, run `pbcopy < ~/.ssh/id_rsa.pub` and immediately go back into the "Key" field and paste.
+
 [Fork the frontend-template repo](https://github.com/dbarabander/template-frontend) by clicking "Fork" in the top right and follow the instructions. Forking means you're making a copy of this code base. 
 
 On your forked repository on Github.com (should look something like https://github.com/YOUR_USERNAME/template-frontend) select the green button to the right that says "Clone or Download" and select "Use SSH" on the top right. Then click the copy icon to the right. Go back to iTerm. Make sure you're located in `Desktop` and type `git clone` and then paste the url you copied. It should look look like the following, with your username instead of YOUR_USERNAME:
@@ -44,7 +91,6 @@ On your forked repository on Github.com (should look something like https://gith
 ```
 $ git clone git@github.com:YOUR_USERNAME/template-frontend.git
 ```
-
 
 [Fork the template-backend repo](https://github.com/dbarabander/template-backend) in the same way you did the `template-frontend`
 
