@@ -126,6 +126,12 @@ While in iTerm, install node 9.11.1 by running:
 $ nvm install 9.11.1
 ```
 
+While in iTerm, install MongoDB by running:
+
+```
+$ brew install mongodb
+```
+
 Move into the `template-frontend` directory. In iTerm your current directory should still be `Desktop`. 
 
 In iTerm, run the following:
