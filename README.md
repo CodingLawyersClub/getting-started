@@ -132,6 +132,18 @@ While in iTerm, install MongoDB by running:
 $ brew install mongodb
 ```
 
+After installing MongoDB, run the following (you may be prompted to enter your password):
+
+```
+sudo mkdir -p /data/db
+```
+
+Finally, make MongoDB accessible to root user by running:
+
+```
+sudo chmod -R go+w /data/db
+```
+
 Move into the `template-frontend` directory. In iTerm your current directory should still be `Desktop`. 
 
 In iTerm, run the following:
