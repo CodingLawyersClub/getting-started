@@ -52,8 +52,8 @@ Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 At the prompt about passphrase, just press enter twice:
 
 ```
-Enter passphrase (empty for no passphrase): [hit Enter]
-Enter same passphrase again: [hit Enter]
+Enter passphrase (empty for no passphrase): [Press Enter]
+Enter same passphrase again: [Press Enter]
 ```
 
 Run:
